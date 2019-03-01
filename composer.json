@@ -1,0 +1,23 @@
+{
+    "name": "michael/jp_doc_conv",
+    "type": "project",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "MichaelBeeu",
+            "email": "michael.beeu@gmail.com"
+        }
+    ],
+    "require": {
+        "phpoffice/phpword": "^0.16.0",
+        "ateliee/mecab": "dev-master",
+        "ext-mbstring": "*",
+        "ext-zip": "*",
+        "ext-xml": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
