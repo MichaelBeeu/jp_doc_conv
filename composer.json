@@ -9,10 +9,8 @@
         }
     ],
     "require": {
-        "phpoffice/phpword": "^0.16.0",
         "ateliee/mecab": "dev-master",
         "ext-mbstring": "*",
-        "ext-zip": "*",
         "ext-xml": "*"
     },
     "autoload": {
