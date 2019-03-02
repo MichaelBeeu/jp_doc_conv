@@ -10,6 +10,8 @@ Sample command:
 This will read `input.html` and write output to `output.html`.
 
 # Requirements
+This project was written in PHP 7.2.
+
 The following extensions are required:
 - xml
 - zip
@@ -18,7 +20,7 @@ And the following external binaries:
 - mecab
 
 # Installation
-Ensure the above requierements are met, then run `composer install`.
+Ensure the above requirements are met, then run `composer install`.
 
 # TODO
 - [ ] Add additional output formats.
