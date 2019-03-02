@@ -16,6 +16,8 @@ if (!isset($argv[1])) {
     exit(1);
 }
 
+$input_filename = $argv[1];
+
 // Set the output filename.
 if (isset($argv[2])) {
     $output_filename = $argv[2];
@@ -32,7 +34,7 @@ if ($input_filename == '-') {
 }
 
 // Create reader and writer objects for the document.
-$reader = new XMLReader($argv[1]);
+$reader = new XMLReader($input_filename);
 $writer = new HtmlWriter();
 
 // Construct the 'pipeline' for processing the document.
