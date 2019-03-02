@@ -29,7 +29,8 @@ class FuriganaIterator extends \IteratorIterator
     }
 
     /**
-     * Get teh current node content, and get readings for any kanji present.
+     * Get the current node content, and then get readings for any kanji present, and return a
+     * 'wordgroup' of all the found/converted content.
      *
      * @return mixed
      */
