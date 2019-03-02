@@ -34,6 +34,7 @@ Ensure the above requirements are met, then run `composer install`.
     - [ ] H1-H6
     - [ ] Maintain applied CSS styles
 - [ ] More complex processing of command line arguments.
+- [ ] Create web interface for document conversion.
 
 # Notes
 This project was made with the purpose of processing/converting the following resources in mind:
